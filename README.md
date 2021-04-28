@@ -1,4 +1,4 @@
-#  Perform lazy loading in Flutter DataTable (SfDataGrid) in just 3 steps
+#  Perform lazy loading in Flutter DataTable (SfDataGrid).
 
 The Syncfusion Flutter DataTable (SfDataGrid) provides support to load data lazily with interactive view when the grid reaches its maximum offset while scrolling down.
 
@@ -174,7 +174,7 @@ class EmployeeDataGridSource extends DataGridSource {
 ```
 
 
-### Steps to enable the load more feature in SfDataGrid.
+### Steps to enable the lazy loading feature in SfDataGrid.
 
 #### Step 1:
 
@@ -192,14 +192,14 @@ import 'package:syncfusion_flutter_datagrid/datagrid.dart';
 #### Step 2:
 
 You can perform the lazy loading in two ways
-o	Infinite loading
-o	LoadMore Button
+*	[Infinite loading](https://help.syncfusion.com/flutter/datagrid/load-more#infinite-scrolling)
+*	[LoadMore Button](https://help.syncfusion.com/flutter/datagrid/load-more#load-more-button)
 
-In this blog, we have shown the example by showing the button and more rows will be loaded when you tap that button. Follow the below steps,
+In this blog, we have shown the example by showing the infinite scrolling. Follow the below steps,
 
-•	Use the loadMoreViewBuilder callback which will be called when datagrid reaches its maximum vertical offset.
-•	In loadMoreViewBuilder callback, we have provided the loadMoreRows callback as parameter
-•	By using the loadMoreRows callback, you can load data lazily.
+*	Use the loadMoreViewBuilder callback which will be called when datagrid reaches its maximum vertical offset.
+*	In loadMoreViewBuilder callback, we have provided the loadMoreRows callback as parameter
+*	By using the loadMoreRows callback, you can load data lazily.
 
 ```xml
 
