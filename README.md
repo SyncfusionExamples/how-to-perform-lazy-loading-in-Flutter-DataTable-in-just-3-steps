@@ -427,11 +427,5 @@ class EmployeeDataGridSource extends DataGridSource {
 | --- | --- | 
 | ![Flutter DataTable(SfDataGrid) Lazy loading ](assets/flutter-datatable-lazy-loading-with-infinite-scrolling.gif) |![Flutter DataTable(SfDataGrid) Lazy loading with Load More Button](assets/flutter-datatable-lazy-loading-with-loadmore-button.gif)|
 
-
-
-
-
-
-
-
-
+## Blog reference
+[How to Perform Lazy Loading in Flutter Data Table](https://www.syncfusion.com/blogs/post/lazy-loading-in-flutter-data-table.aspx)
